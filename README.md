@@ -1,5 +1,21 @@
 # Tillitis TKey FIDO2
 
+**Work-in-progress FIDO2 device application for the Tillitis TKey security token.**
+
+TKey Castor · FIDO2 · Work in progress
+
+[Build](#building) · [Device target](targets/) · [FIDO2 implementation](fido2/) · [Developer handbook](https://dev.tillitis.se/)
+
+This version targets the Castor TKey. Provide `tkey-libs` at `../tkey-libs`, or set `LIBDIR`, then run `make tkey_app`. Device-app changes may change the identity.
+
+> Fork under novadusk · Upstream: [tillitis/tkey-fido2](https://github.com/tillitis/tkey-fido2) · Branch: `main`. Upstream badges, release links and documentation below describe the original project.
+
+---
+
+## Upstream documentation
+
+# Tillitis TKey FIDO2
+
 WIP support for FIDO2 using the [Tillitis](https://tillitis.se/) TKey
 USB security token.
 
